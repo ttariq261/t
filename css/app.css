@@ -36,7 +36,7 @@ img.ri:empty {
 
 #tick {
         background:rgba(0,0,0,0.5);
-        max-width: 95%;
+        max-width: 100%;
         max-height: 80%;
         bottom: 0;
         left: 0;

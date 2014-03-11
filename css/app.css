@@ -12,16 +12,15 @@
   bottom:0;
   height:100%;
   width:100%;
+  background: transparent;
 }
 
 img.ri
 {
   position: absolute;
-  max-width: 100%;
+  max-width: 90%;
   top: 10%;
   left: 10%;
-  border-radius: 3px;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.9);
 }
 
 img.ri:empty {
@@ -70,3 +69,11 @@ img.ri:empty {
     text-shadow:2px 2px black;
     line-height:200px;
 }
+
+.trans {
+  background: rgba(0,0,0,0.5) !important;
+  border: 0;
+  color: white;
+  font-weight: normal;
+}
+

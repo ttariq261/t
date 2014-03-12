@@ -1,3 +1,6 @@
+ion-nav-view, body, ion-content, ion-view {
+  background: black !important;
+}
 .ionic-logo {
   display: block;
   margin: 15px auto;
@@ -7,6 +10,16 @@
 
 .item-label, .item, body, button {
   font-family: esqadero;
+}
+
+.listImage { position:absolute;z-index:-1;left:0;top:0;height:100%;width:100%;border:0; }
+
+.listHeader {
+  color:white !important;
+  background:rgba(0,0,0,0.5);
+  padding: 5px;
+  margin-left: -15px;
+  margin-top: 50px;
 }
 
 .slidebox { 
